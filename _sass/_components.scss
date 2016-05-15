@@ -235,6 +235,27 @@ footer{
   .footer-info{
     font-family: $gotham-book;
   }
+  .footer-heading {
+    font-family: $gotham-bold;
+    font-size: 18px;
+  }
+  .email-address {
+    font-family: $gotham-bold;
+    letter-spacing: 0.36px;
+    color: $white;
+    &:hover, &:visited {
+      color: $med-blue;
+      text-decoration: none;
+    }
+  }
+
+  .social-links a {
+    color: $white;
+    &:hover{
+      color: $med-blue;
+      text-decoration: none;
+    }
+  }
   .copyright {
     font-size: 11px;
   }
