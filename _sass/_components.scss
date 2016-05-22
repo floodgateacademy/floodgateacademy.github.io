@@ -17,6 +17,18 @@
   max-width: 220px;
 }
 
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+  padding-bottom: 20px;
+  // bootstrap override
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-home {
+  box-shadow: none;
+}
+
 .nav-link {
   font-family: 'Gotham-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -256,12 +268,128 @@ p.time-text{
 /* About */
 section.intro {
   background: $dark-blue;
+  padding: 50px 0;
+  h2.about-heading {
+    color: $white;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
   .intro-text {
     color: $white;
     font-family: $gotham-book;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+  .about-picture {
+    margin: 80px auto;
   }
 }
 
+section.team {
+  h2.about-heading {
+    color: $dark-blue;
+    margin-bottom: 20px;
+  }
+  p.team-blurb {
+    color: $dark-blue;
+    font-family: $gotham-book;
+    margin-bottom: 50px;
+    line-height: 22px;
+    font-size: 18px;
+  }
+  .profile-wrapper {
+    text-align: center;
+    color: $dark-blue;
+    img.profile-picture {
+      margin-bottom: 10px;
+      height: 220px;
+      width: auto;
+    }
+    h4.profile-name {
+      font-family: $gotham-bold;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    h5.profile-role {
+      font-family: $gotham-book;
+      font-size: 14px;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+    p.profile-credentials {
+      font-family: $gotham-book;
+      font-size: 11px;
+      margin-bottom: 50px;
+    }
+  }
+  h3.advisor-heading {
+    font-family: $gotham-bold;
+    font-size: 24px;
+    color: $dark-blue;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+}
+
+section.faq {
+  padding: 50px 0;
+  .questions-wrapper {
+    background-color: $light-blue;
+    padding: 50px 0;
+  }
+  
+  h2.faq-heading {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: $dark-blue;
+    font-size: 36px;
+    font-family: $gotham-bold;
+  }
+  
+  .faq-questions {
+    color: $dark-blue;
+    font-size: 18px;
+    font-family: $gotham-book;
+  }
+  
+  ul.question-list {
+    line-height: 36px;
+  }
+  
+  .answers-wrapper {
+    padding: 50px 0;
+    color: $dark-blue;
+    p.question {
+      font-size: 18px;
+      font-family: $gotham-bold;
+      margin-bottom: 30px;
+    }
+    p.answer {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 30px;
+      font-family: $gotham-book;
+    }
+  }
+}
+
+/* Apply */
+section.apply-intro {
+  padding: 50px 0;
+  p.apply-intro-text {
+    font-family: $gotham-book;
+    color: $dark-blue;
+    font-size: 24px;
+    line-height: 28px;
+    &:last-of-type {
+      margin-top: 15px;
+    }
+  }
+  .apply-button {
+    margin: 70px 0 20px 0;
+  }
+}
 
 /* Footer */
 
