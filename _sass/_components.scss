@@ -386,9 +386,40 @@ section.apply-intro {
       margin-top: 15px;
     }
   }
-  .apply-button {
-    margin: 70px 0 20px 0;
+}
+.application-info {
+  padding: 50px 0;
+  background-color: $light-blue;
+  color: $dark-blue;
+  font-family: $gotham-book;
+}
+h2.apply-heading {
+    font-size: 24px;
+    font-family: $gotham-bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
   }
+.apply-subheading {
+  font-family: $gotham-bold;
+  margin-bottom: 10px;
+}
+
+.apply-button {
+  margin: 70px 0 20px 0;
+}
+
+.character-list {
+  margin-bottom: 20px;
+}
+
+.apply-task {
+  margin-bottom: 20px;
+}
+
+.interview-info {
+  padding: 50px 0;
+  color: $dark-blue;
+  font-family: $gotham-book;
 }
 
 /* Footer */
