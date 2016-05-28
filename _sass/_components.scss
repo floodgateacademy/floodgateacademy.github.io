@@ -66,7 +66,7 @@
   line-height: 14px;
   margin-left: 20px;
   border: 2px solid $white;
-  &:hover {
+  &:hover, &:visited {
     color: $white;
   }
 }
@@ -82,7 +82,7 @@
   line-height: 14px;
   margin-left: 20px;
   border: 2px solid $dark-blue;
-  &:hover{
+  &:hover, &:visited{
     color: $dark-blue;
   }
 }
@@ -267,8 +267,17 @@ p.time-text{
 
 /* About */
 section.intro {
-  background: $dark-blue;
   padding: 50px 0;
+  width: 100%;
+  height: auto;
+  background:
+      /* top, transparent red, faked with gradient */
+      linear-gradient(
+        rgba(28, 53, 78, 0.9),
+        rgba(28, 53, 78, 0.9)
+      ),
+      /* bottom, image */
+      url(/images/homebg.jpg);
   h2.about-heading {
     color: $white;
     margin-top: 0;
@@ -476,14 +485,14 @@ h2.apply-heading {
     margin-bottom: 40px;
   }
   .topic-text {
-    font-family: $gotham-book;
+    font-family: $gotham-bold;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 20px;
   }
   .topics-list li {
     font-size: 14px;
-    font-family: $gotham-bold;
+    font-family: $gotham-book;
     margin-bottom: 10px;
   }
   .method-blurb {
@@ -529,14 +538,14 @@ h2.apply-heading {
     margin-bottom: 40px;
   }
   p.outcome-text {
-    font-family: $gotham-book;
+    font-family: $gotham-bold;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 20px;
   }
   .outcome-list li {
     font-size: 14px;
-    font-family: $gotham-bold;
+    font-family: $gotham-book;
     margin-bottom: 10px;
   }
   .method-blurb {
