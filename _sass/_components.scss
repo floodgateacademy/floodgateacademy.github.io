@@ -422,6 +422,132 @@ h2.apply-heading {
   font-family: $gotham-book;
 }
 
+.curriculum-intro {
+  background-color: $dark-blue;
+  padding: 50px 0;
+  color: $white;
+  font-family: $gotham-book;
+  .curriculum-intro-text {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    &:last-of-type {
+      margin-bottom: 0px;
+    }
+  } 
+}
+
+.methodology {
+  padding: 50px 0;
+  color: $dark-blue;
+  h2.curriculum-heading {
+    font-size: 24px;
+    font-family: $gotham-bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  .method-text {
+    font-family: $gotham-book;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
+  .method-heading {
+    font-size: 18px;
+    font-family: $gotham-bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .method-blurb {
+    font-family: $gotham-book;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.topics {
+  padding: 50px 0;
+  background-color: $dark-blue;
+  color: $white;
+  h2.topic-heading {
+    font-size: 24px;
+    font-family: $gotham-bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  .topic-text {
+    font-family: $gotham-book;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .topics-list li {
+    font-size: 14px;
+    font-family: $gotham-bold;
+    margin-bottom: 10px;
+  }
+  .method-blurb {
+    font-family: $gotham-book;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.technology {
+  padding: 50px 0;
+  color: $dark-blue;
+  h2.tech-heading {
+    font-size: 24px;
+    font-family: $gotham-bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+}
+
+.logos-wrapper {
+  text-align: center;
+  margin-bottom: 40px;
+  .tech-logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+}
+
+.last {
+  margin-bottom: 0px;
+}
+
+.outcomes {
+  padding: 50px 0;
+  background-color: $light-blue;
+  color: $dark-blue;
+  h2.outcomes-heading {
+    font-size: 24px;
+    font-family: $gotham-bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  p.outcome-text {
+    font-family: $gotham-book;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .outcome-list li {
+    font-size: 14px;
+    font-family: $gotham-bold;
+    margin-bottom: 10px;
+  }
+  .method-blurb {
+    font-family: $gotham-book;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+
+
 /* Footer */
 
 footer{
