@@ -347,7 +347,7 @@ section.faq {
     background-color: $light-blue;
     padding: 50px 0;
   }
-  
+
   h2.faq-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -355,17 +355,17 @@ section.faq {
     font-size: 36px;
     font-family: $gotham-bold;
   }
-  
+
   .faq-questions {
     color: $dark-blue;
     font-size: 18px;
     font-family: $gotham-book;
   }
-  
+
   ul.question-list {
     line-height: 36px;
   }
-  
+
   .answers-wrapper {
     padding: 50px 0;
     color: $dark-blue;
@@ -443,7 +443,7 @@ h2.apply-heading {
     &:last-of-type {
       margin-bottom: 0px;
     }
-  } 
+  }
 }
 
 .methodology {
@@ -586,7 +586,12 @@ footer{
       text-decoration: none;
     }
   }
-  .copyright {
+
+  .copyright, .non-profit {
     font-size: 11px;
+  }
+
+  .copyright {
+    font-style: italic;
   }
 }
