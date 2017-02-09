@@ -1,6 +1,7 @@
 s3_id: AKIAIQ4OMHDJUFRNCJ7A
 s3_secret: 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
-s3_bucket: www.floodgateacademy.com.s3-website-us-west-2.amazonaws.com
+s3_bucket: www.floodgateacademy.com
+s3_endpoint: www.floodgateacademy.com.s3-website-us-west-2.amazonaws.com
 cloudfront_distribution_id: E3I4CQ66FTYLHZ
 gzip: true
 cache_control: public, no-transform, max-age=1200, s-maxage=1200
