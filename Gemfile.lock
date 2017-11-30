@@ -43,8 +43,8 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
-  jekyll (= 3.3.1)
+  jekyll
   kramdown
 
 BUNDLED WITH
-   1.13.6
+   1.16.0

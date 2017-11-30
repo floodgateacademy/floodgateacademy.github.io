@@ -3,4 +3,5 @@ source "https://rubygems.org"
 
 gem "dotenv"
 gem "kramdown"
-gem "jekyll", "3.3.1"
+gem "jekyll"
+# gem "jekyll", "3.3.1"
